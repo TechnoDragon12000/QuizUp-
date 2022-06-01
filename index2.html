@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizUp! - Science Quiz</title>
+    <link rel="shortcut icon" href="quiz.webp">
+    <!-- Stylesheet Files -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <!-- Google font links -->
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Fira+Sans:wght@300&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Barlow+Condensed&family=Comfortaa&family=Fira+Sans:wght@300&family=Montserrat:wght@500&family=Open+Sans&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Barlow+Condensed&family=Comfortaa&family=Fira+Sans:wght@300&family=Kanit&family=Montserrat:wght@500&family=Open+Sans&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Fira+Sans:wght@300&family=Montserrat:wght@500&family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body class='container-fluid d-flex align-items-center' style='min-height: 100vh;
+background: linear-gradient(#6190e8, #a7bfe8); display:flex; flex-direction: column; align-items:center; justify-content:center;'>
+    
+    <!-- Navigation Bar -->
+    <nav id='nav'>
+        <header ><h1 id='nav-title' style='display:none; cursor: pointer;'>Quiz<span>Up!</span></h1>
+            <ul>
+                <li><a href="index_home.html">HOME</a></li>
+                <li><a href="index1.html">CAPITAL CITY QUIZ</a></li>
+                <li><a href="index2.html" style='color: cyan; text-decoration: underline;'>SCIENCE QUIZ</a></li>
+                <li><a href="index3.html">MATH QUIZ</a></li>
+            </ul>
+        </header>
+    </nav>
+
+    <!-- Heading -->
+    <div id='title'>
+        <img src='quiz.webp' class='img'>
+        <h1 style="text-decoration: underline; font-family:'Montserrat';display:none; text-shadow: 4px 4px rgb(204, 204, 204);" id='h1'>QuizUp! - Science Quiz</h1>
+        <img src='quiz.webp' class='img'>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class='quiz-box bg-dark text-white' style='display:none;' id='box'>
+            <!-- Quiz elements -->
+            <div id='question-title'>QUESTION TITLE</div>
+            <div id= 'options-list' class='mb-2' style="margin-top: 20px; font-family: 'Comfortaa'"></div>
+            <div id='score-area'>Score Area</div>
+            <!-- Quiz Buttons -->
+            <button id='submit-btn' class='btn btn-danger rounded-pill' style=' margin-top: 20px;'>Submit</button>
+            <button id='start' class='btn btn-primary rounded-pill'>Start</button>
+            <button id='play_again-btn' class='btn btn-success rounded-pill'>Play Again</button>
+    </div>
+    <hr>
+    
+    <!-- Bootstrap, JQuery and JavaScript -->
+    <script src = "bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>

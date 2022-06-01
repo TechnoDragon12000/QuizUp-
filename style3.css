@@ -1,0 +1,112 @@
+/* Importing other fonts */
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Barlow+Condensed&family=Fira+Sans:wght@300&family=Montserrat:wght@500&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Barlow+Condensed&family=Comfortaa&family=Fira+Sans:wght@300&family=Montserrat:wght@500&family=Patrick+Hand&display=swap');
+
+/* Navigation Styling */
+header {
+  width: 100%;
+  height: 70px;
+  background-color: darkslateblue;
+  padding-bottom: 80px;
+}
+
+nav {
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+  display: none;
+}
+
+#nav-title {
+  position: absolute;
+  padding: 4px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 9px;
+  font-family: 'Kanit';
+  color: lightskyblue;
+}
+
+span {
+  color: white;
+}
+
+ul {
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+
+li {
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+a {
+  text-align: center;
+  color: lightskyblue;
+  font-family: 'Open Sans';
+  font-size: 30px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: cyan;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+/* Styling H1 */
+#question-title {
+  font-family: 'Patrick Hand';
+  font-size: 30px;
+}
+
+/* Styling for images */
+img {
+  height: 70px;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* Display styling for image and h1 */
+#title {
+  display: flex;
+}
+
+/* Hiding the images */
+.img {
+  display: none;
+}
+
+/* Styling quiz box */
+.quiz-box {
+  text-align: center;
+  transition: 0.4s;
+  border: 4px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 20rem;
+  box-shadow: 4px 4px rgb(182, 176, 176);
+  font-size: 23px;
+  margin-top: 65px;
+}
+.quiz-box:hover {
+  border: 6px solid white;
+  transition: 0.4s;
+}
+
+/* Common styling for buttons */
+button {
+  width: 150px;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-family: 'Barlow Condensed';
+}

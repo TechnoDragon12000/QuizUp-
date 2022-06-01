@@ -1,0 +1,76 @@
+/* Hiding the Elements */
+.all {
+  display: none;
+}
+
+/* Body BG Colour */
+body {
+  background: #000;
+}
+
+/* Nav Content Styling */
+header {
+  width: 100%;
+  height: 70px;
+  background-color: darkslateblue;
+  padding-bottom: 15px;
+}
+
+/* Heading Styling */
+h1 {
+  position: absolute;
+  padding: 4px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 9px;
+  font-family: 'Kanit';
+  color: lightskyblue;
+  font-size: 40px;
+}
+
+/* Logo Differentiation */
+span {
+  color: white;
+}
+
+/* Nav Item Styling */
+ul {
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+li {
+  display: inline-block;
+  padding: 15px 30px;
+}
+a {
+  text-align: center;
+  color: lightskyblue;
+  font-family: 'Open Sans';
+  font-size: 30px;
+  text-decoration: none;
+}
+a:hover {
+  color: cyan;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+/* Logo Image Styling */
+img {
+  height: 150px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+/* Paragraph Styling */
+p {
+  font-family: 'Kanit';
+  font-size: 35px;
+  text-align: center;
+  background-color: darkslateblue;
+  color: lightskyblue;
+}
